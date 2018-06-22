@@ -20,39 +20,58 @@
         </a>
       </nav>
     </header>
-    <main>
+    <main class="container">
+      <div>
+        <h3 class="text-white text-center">Sing Up</h3>
+        <p class="text-white text-center">Join for free ride credit</p>
+      </div>
 
-        <div>
-                <div class="input-group mb-3 col-sm-1">
-                        <select class="custom-select" id="inputGroupSelect01">
-                          <option selected>Country</option>
-                          <option value="mexico">México</option>
-                          <option value="peru">Perú</option>
-                          <option value="chile">Chile</option>
-                        </select>
-                      </div>
+        <div class="row">
+            <div class="input-group-prepend col-xs-2">
+                <button class="btn dropdown-toggle n-padding" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Country</button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li data-code="MX">
+                        <a class="dropdown-item" href="#">
+                            <img src="assets/images/mexico-flag-icon-16.png"  alt="Mexico-Flag">
+                        </a>
+                    </li>
+                    <li data-code="USA">
+                        <a class="dropdown-item" href="#">
+                            <img src="assets/images/united-states-of-america-flag-icon-16.png"  alt="Usa-Flag">
+                        </a>
+                    </li>
+                    <li data-code="PN">
+                        <a class="dropdown-item" href="#">
+                            <img src="assets/images/panama-flag-icon-16.png"  alt="Panama-Flag">
+                        </a>
+                    </li>
+                    <li data-code="UK">
+                        <a class="dropdown-item" href="#">
+                            <img src="assets/images/united-kingdom-flag-icon-16.png" alt="UK-Flag">
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-                  <div class="input-group mb-3">
+                  <div class="input-group mb-3  col-xs-6">
                         <div class="input-group-prepend">
-                          <span id="lada" class="input-group-text" id="inputGroup-sizing-default"></span>
+                          <span id="lada" class="input-group-text" id="inputGroup-sizing-default">Lada</span>
                         </div>
                         <input id="number-phone" type="tel" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" maxlength="10">
                       </div>
 
-                <button id="next" type="button" class="btn btn-light">Light</button>
      </div>
 
+     <div>
+       <p class="text-white text-center">We'll send a text to verify your phone</p>
+     </div>
 
-    <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">@</span>
-            </div>
-            <input id="code" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" maxlength="3">
-          </div>    
-
-    
-
-        </main>
+     <div class="row">
+       <div class="col-12">
+      <button id="next" type="button" class="btn btn-light col-xs-12">Next</button>
+      </div>        
+    </div>
+  </main>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

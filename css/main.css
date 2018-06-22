@@ -1,8 +1,17 @@
 #slash{
     background-image: url(../assets/images/lyft_lux_3_720.png);
+    background-repeat: no-repeat;
 }
 
 #start{
     background-image: url(../assets/images/Usecase05.jpg);
   
+}
+
+.n-padding{
+    padding: 0;
+};
+
+.n-margin{
+    margin: 0;
 }
